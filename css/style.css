@@ -8,8 +8,39 @@
     --transparent-box: hsl(0, 0%, 100%, 0.9);
 }
 
-/* nav bar styles */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--background-color);
+}
 
+h1, h2, h3, h4, h5, h6 {
+    color: var(--main-color);
+    font-weight: bold;
+}
+p {
+    color: var(--secondary-color);
+}
+
+.button {
+    background-color: var(--accent-color);
+}
+/* nav bar styles */
+.navbar a {
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+.navbar-nav a {
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+.navbar-toggler-icon {
+    color: var(--secondary-color);
+    
+}
 
 /* hero section styles */
 

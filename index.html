@@ -17,24 +17,25 @@
 <!-- navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">Alexandra Asanache: Portfolio</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+      <div class="collapse navbar-collapse navLinks" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#work">Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#aboutContact">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <a class="nav-link" href="#aboutContact">Contact</a>
           </li>
+          
         </ul>
       </div>
     </div>
@@ -44,15 +45,15 @@
 <!-- hero section -->
 <div class="p-5 mb-4 bg-body-tertiary rounded-3">
     <div class="container-fluid py-5">
-      <h1 class="display-5 fw-bold">Custom jumbotron</h1>
-      <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-      <button class="btn btn-primary btn-lg" type="button">Example button</button>
+      <h1 class="display-5 fw-bold">Front-end Web Developer</h1>
+      <p class="col-md-8 fs-4">with a focus on digital ethics, empathy and accessibility.</p>
+      <a class="btn btn-dark " href="#aboutContact" role="button">Get in touch</a>
       <img src="#" alt="">
     </div>
   </div>
 
 <!-- skills section -->
-<div class="container">
+<div class="container" id="skills">
     <h2>SKILLS</h2>
     <div class="row row-cols-4">
       <div class="col">
@@ -92,7 +93,7 @@
 
   <hr class="hr hr-blurry" />
 <!-- work section -->
-<div class="container">
+<div class="container" id="work">
     <h2>WORK</h2>
     <div class="row row-cols-1 row-cols-md-2 g-4">
         <div class="col">
@@ -138,11 +139,12 @@
 <!-- about + contact section -->
 <!-- use container - row + 2 col class divs w box class divs inside to create two columns for about and contact; make about col-6 or 7 on lg; try col-12 for mobile screen so they display underneath each other-->
 
-<div class="container">
-    <div class="row row-cols-2 row-cols-sm-1">
+<div class="container overflow-hidden" id="aboutContact">
+    <div class="row gy-3 row-cols-2 row-cols-sm-1">
       <div class="col col-lg-7 col-xl-8 col-sm-12">
         <h3>ABOUT</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolorum et sequi earum natus sed cupiditate incidunt? Porro eum quasi eveniet magnam facilis officiis quia aspernatur incidunt quibusdam quod, sint odit atque, debitis numquam hic ipsum! Quos ut fugit maiores nobis. Iusto, quo omnis? Eligendi at deserunt corporis eaque quidem!</p>
+        <a class="btn btn-dark" href="#" download="#" role="button">Download my CV</a>
       </div>
       
       <div class="col col-lg-5 col-xl-4 col-sm-12">
