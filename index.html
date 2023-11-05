@@ -2,23 +2,26 @@
 <html lang="en-gb">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-    <!-- Boostrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Custom styles -->
-    <link rel="stylesheet" href="./css/style.css">
+  <!-- Boostrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-    <title>Alex Asanache - Web Developer</title>
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>Alex Asanache - Web Developer</title>
 </head>
+
 <body>
-<!-- navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Alexandra Asanache: Portfolio</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="#">Alexandra Asanache</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse navLinks" id="navbarNav">
@@ -35,25 +38,26 @@
           <li class="nav-item">
             <a class="nav-link" href="#aboutContact">Contact</a>
           </li>
-          
+
         </ul>
       </div>
     </div>
   </nav>
 
 
-<!-- hero section -->
-<div class="p-5 mb-4 bg-body-tertiary rounded-3">
-    <div class="container-fluid py-5">
+  <!-- hero section -->
+
+  <header class="p-5 mb-4 bg-body-tertiary rounded-3">
+    <div class="container-fluid py-4" id="headerContent">
       <h1 class="display-5 fw-bold">Front-end Web Developer</h1>
       <p class="col-md-8 fs-4">with a focus on digital ethics, empathy and accessibility.</p>
-      <a class="btn btn-dark " href="#aboutContact" role="button">Get in touch</a>
-      <img src="#" alt="">
+      <a class="btn btn-light" id=getInTouch href="#aboutContact" role="button">Get in touch</a>
     </div>
-  </div>
+  </header>
 
-<!-- skills section -->
-<div class="container" id="skills">
+
+  <!-- skills section -->
+  <div class="container" id="skills">
     <h2>SKILLS</h2>
     <div class="row row-cols-4">
       <div class="col">
@@ -92,87 +96,109 @@
   </div>
 
   <hr class="hr hr-blurry" />
-<!-- work section -->
-<div class="container" id="work">
+  <!-- work section -->
+  <div class="container" id="work">
     <h2>WORK</h2>
-    <div class="row row-cols-1 row-cols-md-2 g-4">
-        <div class="col">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
+    <div class="row gy-1 gx-1">
+      <div class="col-12">
+        <div class="card">
+          <img src="./assets/images/webUpDigitalMarketing.jpg" class="card-img-top" alt="...">
+          <div class="card-body mainProject">
+            <h5 class="card-title">Travel California</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
           </div>
         </div>
       </div>
-</div>
-  
-<hr class="hr hr-blurry" />
-<!-- about + contact section -->
-<!-- use container - row + 2 col class divs w box class divs inside to create two columns for about and contact; make about col-6 or 7 on lg; try col-12 for mobile screen so they display underneath each other-->
-
-<div class="container overflow-hidden" id="aboutContact">
-    <div class="row gy-3 row-cols-2 row-cols-sm-1">
-      <div class="col col-lg-7 col-xl-8 col-sm-12">
-        <h3>ABOUT</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolorum et sequi earum natus sed cupiditate incidunt? Porro eum quasi eveniet magnam facilis officiis quia aspernatur incidunt quibusdam quod, sint odit atque, debitis numquam hic ipsum! Quos ut fugit maiores nobis. Iusto, quo omnis? Eligendi at deserunt corporis eaque quidem!</p>
-        <a class="btn btn-dark" href="#" download="#" role="button">Download my CV</a>
+      <div class="col-md-6 col-sm-12">
+        <div class="card">
+          <img src="./assets/images/cssSnippetCheatsheet.jpg" class="card-img-top" alt="...">
+          <div class="card-body secondaryProject">
+            <h5 class="card-title">CSS Snippet Cheatsheet</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+          </div>
+        </div>
       </div>
-      
-      <div class="col col-lg-5 col-xl-4 col-sm-12">
-        <h3>CONTACT</h3>
-        <p>
-            Email: <a href="contact@alexandraasanache.com">contact@alexandraasanache.com</a>
-            <br>
-            GitHub: <a href="#">Profile address</a>
-            <br>
-            LinkedIn: <a href="#">LinkedIn address</a>
-
-        </p>
+      <div class="col-md-6 col-sm-12">
+        <div class="card">
+          <img src="./assets/images/jakesEatery.jpg" class="card-img-top" alt="...">
+          <div class="card-body secondaryProject">
+            <h5 class="card-title">Jake's Eatery</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <div class="card">
+          <img src="./assets/images/webUpDigitalMarketing.jpg" class="card-img-top" alt="...">
+          <div class="card-body secondaryProject">
+            <h5 class="card-title">WebUp Digital Marketing</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <div class="card">
+          <img src="./assets/images/studyGuide.jpg" class="card-img-top" alt="...">
+          <div class="card-body secondaryProject">
+            <h5 class="card-title">Prework Study Guide</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
   <hr class="hr hr-blurry" />
-<!-- footer section -->
-<!-- don't forget to add social icons -->
-<footer class="container">
-    <div class="row">
-        <p>&copy;2023 Alexandra Asanache trading as DigitallyAlex</p>
+  <!-- about + contact section -->
+  <!-- use container - row + 2 col class divs w box class divs inside to create two columns for about and contact; make about col-6 or 7 on lg; try col-12 for mobile screen so they display underneath each other-->
+
+  <div class="container overflow-hidden" id="aboutContact">
+    <div class="row gy-3 row-cols-3 row-cols-sm-1">
+      <div class="col-lg-5 col-sm-12">
+        <h3>ABOUT</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolorum et sequi earum natus sed
+          cupiditate incidunt? Porro eum quasi eveniet magnam facilis officiis quia aspernatur incidunt quibusdam quod,
+          sint odit atque, debitis numquam hic ipsum! Quos ut fugit maiores nobis. Iusto, quo omnis? Eligendi at
+          deserunt corporis eaque quidem!</p>
+      </div>
+
+      <div class="col-lg-4 col-sm-12" id="contactSection">
+        <h3>CONTACT</h3>
+        <p>
+          Email: <a class="contactLink" href="contact@alexandraasanache.com">contact@alexandraasanache.com</a>
+          <br>
+          GitHub: <a class="contactLink" href="#">Profile address</a>
+          <br>
+          LinkedIn: <a class="contactLink" href="#">LinkedIn address</a>
+        </p>
+        <a class="btn btn-dark" id="downloadCV" href="#" download="#" role="button">Download my CV</a>
+      </div>
+
+      <div class="col-lg-3 col-sm-12">
+        <img src="./assets/images/transparentAvatarV1.png" alt="Alexandra Asanache Avatar Photo">
+      </div>
     </div>
-</footer>
+  </div>
+
+  <hr class="hr hr-blurry" />
+  <!-- footer section -->
+  <!-- don't forget to add social icons -->
+  <footer class="container">
+    <div class="row">
+      <p>&copy;2023 Alexandra Asanache trading as DigitallyAlex</p>
+    </div>
+  </footer>
 
 </body>
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+  integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 
 </html>

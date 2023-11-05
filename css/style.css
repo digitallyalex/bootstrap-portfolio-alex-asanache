@@ -43,15 +43,35 @@ p {
 }
 
 /* hero section styles */
+header {
+    background-image: url(../assets/images/wideHeroImage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#getInTouch {
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
 
 
 /* skills section styles */
 
 
 /* work section styles */
-
+.secondaryProject {
+    height: 10rem;
+}
 
 /* about + contact section styles */
+#contactSection .contactLink {
+    color: var(--main-color);
+}
+
+#aboutContact img {
+    width: 15rem;
+}
 
 
 /* footer styles */
