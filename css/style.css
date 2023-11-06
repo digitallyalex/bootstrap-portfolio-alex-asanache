@@ -93,16 +93,14 @@ header {
     transform: translateY(-0.30em);
 }
 
-.secondaryProject {
-    height: 10rem;
+/* work section styles */
+.mainProject, .secondaryProject {
+    height: 11rem;
 }
 
 .card-text {
     color: var(--secondary-color);
 }
-
-/* work section styles */
-
 
 /* about + contact section styles */
 #aboutContact img {
@@ -121,19 +119,37 @@ footer {
     text-align: center;
 }
 
-.icon {
+.iconLink {
     text-decoration: none;
+}
+
+.iconImage {
+    padding: 10px;
+}
+
+.iconImage:hover,
+.iconImage:focus {
+    transform: translateY(-0.30em);
 }
 
 
 
 /* media query for small and xs screens */
 @media only screen and (max-width:320px) {
+   /* about and contact section */
     #aboutContact {
         display: flex;
     }
     .aboutContent {
         width: 100%;
         justify-content: center;
+    }
+}
+
+/* media query for medium screens and above */
+@media only screen and (min-width:1000px) {
+    /* work section card body */
+    .mainProject, .secondaryProject {
+        height: 8rem;
     }
 }
