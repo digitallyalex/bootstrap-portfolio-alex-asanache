@@ -54,6 +54,7 @@ Additionally, a few resources and tutorials were very helpful in putting togethe
 - For button hover effects ideas: https://codepen.io/giana/pen/BZaGyP
 - On Bootstrap gutters: https://getbootstrap.com/docs/5.1/layout/gutters/
 - On Bootstrap buttons: https://getbootstrap.com/docs/5.0/components/buttons/
+- On Bootstrap grid: https://www.w3schools.com/bootstrap5/bootstrap_grid_basic.php
 
 Badges at the bottom of this README file were listed with the help of the following repository: https://github.com/Ileriayo/markdown-badges 
 
