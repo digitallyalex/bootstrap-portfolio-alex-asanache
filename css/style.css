@@ -26,6 +26,10 @@ p {
 }
 
 /* nav bar styles */
+nav, .navigation {
+    background-color: var(--background-color);
+}
+
 .navbar a {
     font-weight: bold;
     color: var(--main-color);
@@ -65,6 +69,14 @@ header {
     height: 10rem;
 }
 
+.card-title {
+    color: var(--main-color);
+}
+
+.card-text {
+    color: var(--secondary-color);
+}
+
 /* about + contact section styles */
 #contactSection .contactLink {
     color: var(--main-color);
@@ -74,6 +86,10 @@ header {
     width: 15rem;
 }
 
+#downloadCV {
+    background-color: var(--secondary-color);
+    color: var(--box-colors);
+}
 
 /* footer styles */
 footer {
