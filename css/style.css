@@ -6,6 +6,7 @@
     --accent-color: #D3E2F3;
     --box-colors: white;
     --transparent-box: hsl(0, 0%, 100%, 0.9);
+    --link-hover: black;
 }
 
 body {
@@ -21,8 +22,21 @@ p {
     color: var(--secondary-color);
 }
 
-#getInTouch, #downloadCV {
+.mainButtons {
     width: 330px;
+}
+
+.mainButtons:hover,
+.mainButtons:focus {
+    box-shadow: inset 0 0 0 3em var(--main-color);
+}
+
+body a {
+    color: var(--main-color);
+}
+
+body a:hover {
+    color: var(--link-hover);
 }
 
 /* nav bar styles */
@@ -62,15 +76,14 @@ header {
 
 
 /* skills section styles */
-
-
-/* work section styles */
-.secondaryProject {
-    height: 10rem;
+.skillIcon:hover,
+.skillIcon:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--secondary-color);
+    transform: translateY(-0.30em);
 }
 
-.card-title {
-    color: var(--main-color);
+.secondaryProject {
+    height: 10rem;
 }
 
 .card-text {
@@ -78,10 +91,6 @@ header {
 }
 
 /* about + contact section styles */
-#contactSection .contactLink {
-    color: var(--main-color);
-}
-
 #aboutContact img {
     width: 15rem;
 }
@@ -98,7 +107,8 @@ footer {
     align-content: space-between;
 }
 
-/* media queries */
+
+
 /* media query for small and xs screens */
 @media only screen and (max-width:320px) {
     #aboutContact {

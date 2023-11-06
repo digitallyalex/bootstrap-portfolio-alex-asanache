@@ -51,7 +51,7 @@
     <div class="container-fluid py-4" id="headerContent">
       <h1 class="display-5 fw-bold">Front-end Web Developer</h1>
       <p class="col-md-8 fs-4">with a focus on digital ethics, empathy and accessibility.</p>
-      <a class="btn btn-light" id=getInTouch href="#aboutContact" role="button">Get in touch</a>
+      <a class="btn btn-light mainButtons" id=getInTouch href="#aboutContact" role="button">Get in touch</a>
     </div>
   </header>
 
@@ -61,35 +61,35 @@
     <h2>SKILLS</h2>
     <div class="row">
       <div class="col-5 col-sm-4 col-md-3">
-        <img src="./assets/images/htmlIcon.png" alt="HTML icon">
+        <img class="skillIcon" src="./assets/images/htmlIcon.png" alt="HTML icon">
         <p>HTML 5</p>
       </div>
       <div class="col-5 col-sm-4 col-md-3">
-        <img src="./assets/images/cssIcon.png" alt="CSS icon">
+        <img class="skillIcon" src="./assets/images/cssIcon.png" alt="CSS icon">
         <p>CSS 3</p>
       </div>
       <div class="col-5 col-sm-4 col-md-3">
-        <img src="./assets/images/jsIcon.png" alt="JavaScript icon">
+        <img class="skillIcon" src="./assets/images/jsIcon.png" alt="JavaScript icon">
         <p>JAVASCRIPT</p>
       </div>
       <div class="col-5 col-sm-4 col-md-3">
-        <img src="./assets/images/bootstrapIcon.png" alt="Bootstrap icon">
+        <img class="skillIcon" src="./assets/images/bootstrapIcon.png" alt="Bootstrap icon">
         <p>BOOTSTRAP 5</p>
       </div>
       <div class="col-5 col-sm-4 col-md-3">
-        <img src="./assets/images/reactIcon.png" alt="React.js icon">
+        <img class="skillIcon" src="./assets/images/reactIcon.png" alt="React.js icon">
         <p>REACT.JS</p>
       </div>
       <div class="col-5 col-sm-4 col-md-3">
-        <img src="./assets/images/nodeIcon.png" alt="Node.js icon">
+        <img class="skillIcon" src="./assets/images/nodeIcon.png" alt="Node.js icon">
         <p>NODE.JS</p>
       </div>
       <div class="col-5 col-sm-4 col-md-3">
-        <img src="./assets/images/figmaIcon.png" alt="Figma icon">
+        <img class="skillIcon" src="./assets/images/figmaIcon.png" alt="Figma icon">
         <p>FIGMA</p>
       </div>
       <div class="col-5 col-sm-4 col-md-3">
-        <img src="./assets/images/canvaIcon.png" alt="Canva icon">
+        <img class="skillIcon" src="./assets/images/canvaIcon.png" alt="Canva icon">
         <p>CANVA</p>
       </div>
     </div>
@@ -97,14 +97,16 @@
 
   <hr class="hr hr-blurry" />
   <!-- work section -->
-  <div class="container" id="work">
+  <article class="container" id="work">
     <h2>WORK</h2>
     <div class="row gy-1 gx-1">
       <div class="col-12">
         <div class="card">
           <img src="./assets/images/webUpDigitalMarketing.jpg" class="card-img-top" alt="...">
           <div class="card-body mainProject">
-            <h5 class="card-title">Travel California</h5>
+            <a href="#">
+              <h5 class="card-title">Travel California</h5>
+            </a>
             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
               content. This content is a little bit longer.</p>
           </div>
@@ -114,7 +116,9 @@
         <div class="card">
           <img src="./assets/images/cssSnippetCheatsheet.jpg" class="card-img-top" alt="...">
           <div class="card-body secondaryProject">
-            <h5 class="card-title">CSS Snippet Cheatsheet</h5>
+            <a href="#">
+              <h5 class="card-title">CSS Snippet Cheatsheet</h5>
+            </a>
             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
               content. This content is a little bit longer.</p>
           </div>
@@ -124,7 +128,9 @@
         <div class="card">
           <img src="./assets/images/jakesEatery.jpg" class="card-img-top" alt="...">
           <div class="card-body secondaryProject">
-            <h5 class="card-title">Jake's Eatery</h5>
+            <a href="#">
+              <h5 class="card-title">Jake's Eatery</h5>
+            </a>
             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
               content. This content is a little bit longer.</p>
           </div>
@@ -132,26 +138,30 @@
       </div>
       <div class="col-md-6 col-sm-12">
         <div class="card">
-          <img src="./assets/images/webUpDigitalMarketing.jpg" class="card-img-top" alt="...">
-          <div class="card-body secondaryProject">
+        <img src="./assets/images/webUpDigitalMarketing.jpg" class="card-img-top" alt="...">
+        <div class="card-body secondaryProject">
+          <a href="#">
             <h5 class="card-title">WebUp Digital Marketing</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-              content.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6 col-sm-12">
-        <div class="card">
-          <img src="./assets/images/studyGuide.jpg" class="card-img-top" alt="...">
-          <div class="card-body secondaryProject">
-            <h5 class="card-title">Prework Study Guide</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.</p>
-          </div>
+          </a>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+            content.</p>
         </div>
       </div>
     </div>
-  </div>
+    <div class="col-md-6 col-sm-12">
+      <div class="card">
+        <img src="./assets/images/studyGuide.jpg" class="card-img-top" alt="...">
+        <div class="card-body secondaryProject">
+          <a href="#">
+            <h5 class="card-title">Prework Study Guide</h5>
+          </a>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </article>
 
   <hr class="hr hr-blurry" />
   <!-- about + contact section -->
@@ -161,7 +171,8 @@
     <div class="row gy-3">
       <div class="col-lg-5 col-sm-12">
         <h3>ABOUT</h3>
-        <p class="aboutContent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolorum et sequi earum natus sed
+        <p class="aboutContent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolorum et sequi
+          earum natus sed
           cupiditate incidunt? Porro eum quasi eveniet magnam facilis officiis quia aspernatur incidunt quibusdam quod,
           sint odit atque, debitis numquam hic ipsum! Quos ut fugit maiores nobis. Iusto, quo omnis? Eligendi at
           deserunt corporis eaque quidem!</p>
@@ -180,7 +191,7 @@
           <br>
           LinkedIn: <a class="contactLink" href="#">LinkedIn address</a>
         </p>
-        <a class="btn aboutContent" id="downloadCV" href="#" download="#" role="button">Download my CV</a>
+        <a class="btn aboutContent mainButtons" id="downloadCV" href="#" download="#" role="button">Download my CV</a>
       </div>
 
     </div>
@@ -192,16 +203,16 @@
   <footer class="container">
     <div class="row">
       <section class="socialIcons">
-      <a href="#" class="icon">
-        <img src="./assets/images/gitHubIcon.png" alt="Github Profile Link">
-      </a>
-      <a href="#">
-        <img src="./assets/images/linkedinIcon.png" alt="LinkedIn Profile Link">
-      </a>
-      <a href="#">
-       <img src="./assets/images/instaIcon.png" alt="Instagram Profile Link">
-      </a>
-    </section>
+        <a href="#" class="icon">
+          <img src="./assets/images/gitHubIcon.png" alt="Github Profile Link">
+        </a>
+        <a href="#">
+          <img src="./assets/images/linkedinIcon.png" alt="LinkedIn Profile Link">
+        </a>
+        <a href="#">
+          <img src="./assets/images/instaIcon.png" alt="Instagram Profile Link">
+        </a>
+      </section>
       <p>&copy;2023 Alexandra Asanache trading as DigitallyAlex</p>
     </div>
   </footer>
